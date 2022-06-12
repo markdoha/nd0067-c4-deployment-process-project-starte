@@ -9,7 +9,7 @@
     "build": "echo \"Error: nothing build\"",
     "deploy": "npm install -f && npm run build && chmod +x bin/deploy.sh && bin/deploy.sh",
     "test": "ng test --watch=false",
-    "lint": "echo success",
+    "lint": "echo succes",
     "e2e": "ng e2e"
   },
   "private": true,
