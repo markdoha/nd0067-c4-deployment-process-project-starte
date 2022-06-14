@@ -8,15 +8,15 @@ dotenv.config();
 
 export const config = {
   username: "postgres",
-  password: process.env.POSTGRES_PASSWORD,
-  database: process.env.POSTGRES_DB,
-  port: Number(process.env.PORT),
-  host: process.env.POSTGRES_HOST,
+  password: "020508m.m",
+  database: "database-1",
+  port: 5432,
+  host: "database-1.ctwv75pzrl9w.us-east-1.rds.amazonaws.com",
   dialect: "postgres",
-  aws_region: process.env.AWS_REGION,
+  aws_region: "eu-east-1",
   aws_profile: "default",
-  aws_media_bucket: process.env.AWS_BUCKET,
-  url: process.env.URL,
+  aws_media_bucket: "bucket321321",
+  url: "http://udagram-api2-dev222.us-east-1.elasticbeanstalk.com",
   jwt: {
     secret: process.env.JWT_SECRET,
   },
