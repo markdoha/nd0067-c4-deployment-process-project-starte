@@ -9,7 +9,7 @@ dotenv.config();
 export const config = {
   username: "postgres",
   password: "020508m.m",
-  database: "database-1",
+  database: "postgres",
   port: 5432,
   host: "database-1.ctwv75pzrl9w.us-east-1.rds.amazonaws.com",
   dialect: "postgres",
