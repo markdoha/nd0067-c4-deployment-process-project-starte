@@ -11,7 +11,7 @@ export const config = {
   password: "020508m.m",
   database: "postgres",
   port: 5432,
-  host: "database-1.ctwv75pzrl9w.us-east-1.rds.amazonaws.com",
+  host: "database-2.ctwv75pzrl9w.us-east-1.rds.amazonaws.com",
   dialect: "postgres",
   aws_region: "us-east-1",
   aws_profile: "default",
