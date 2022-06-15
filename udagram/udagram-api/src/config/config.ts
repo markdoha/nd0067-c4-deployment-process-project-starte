@@ -18,6 +18,6 @@ export const config = {
   aws_media_bucket: "bucket321321",
   url: "http://udagram-api2-dev222.us-east-1.elasticbeanstalk.com",
   jwt: {
-    secret: process.env.JWT_SECRET,
+    secret: 'mysecretstring',
   },
 };
